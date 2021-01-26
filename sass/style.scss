@@ -1,0 +1,94 @@
+
+$color-light: #ffffff;
+
+/*Global*/
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+.section-title {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.section-subtitle {
+	font-size: 16px;
+	text-align: center;
+  margin-top: 0;
+}
+
+/* header */
+.splash {
+  height: 100vh;
+  background-image: url('/images/header-background.png');
+  background-position: center;
+  background-size: cover;
+}
+.splash-inner {
+	color: $color-light;
+	text-align: center;
+	margin: 0 auto;
+}
+.nav-logo {
+	padding-top: 20px;
+}
+.nav-menu {
+  font-size: 20px;
+}
+.nav-menu ul {
+list-style-type: none;
+}
+.nav-menu ul li {
+ display: inline-block;
+ margin-right: 30px;
+}
+.nav-menu a {
+  color: $color-light;
+  text-decoration: none;
+}
+.splash-inner {
+	margin-top: 0 auto;
+	padding-top: 300px;
+}
+.btn {
+	background: #fed136;
+	text-decoration: none;
+	color: $color-light;
+	font-size: 18px;
+	padding: 12px 10px;
+}
+
+
+/* SERVICES*/
+
+
+/* PORTFOLIO */
+.portfolio {
+	background: #f7f7f7;
+}
+
+.card-image {
+	height: 300px;
+	width: 290px;
+	position: relative;
+	margin: auto;
+	padding-bottom: 0;
+}
+
+.card-image img {
+	object-fit: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.card-body {
+  position: relative;
+	width: 290px;
+  text-align: center;
+  background: #ffffff;
+	margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+ margin-top: 15px;
+}
